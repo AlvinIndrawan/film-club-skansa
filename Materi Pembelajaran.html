@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Film Club Skansa</title>
+    <link rel="icon" href="image/Logo_SMKN1sungailiat.png">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+           <!--Brand Name-->
+           <a href="#" class="navbar-brand">
+            <img src="image/Logo_SMKN1sungailiat.png" width="30" height="30" class="d-inline-block align-top" alt="Logo">
+            Film Club Skansa
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <!-- List Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="Index.php" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="DaftarFilm.php" class="nav-link">Film</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-toggle="dropdown" aria-hashpopup="true" aria-expanded="false">
+                        Tentang
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="AboutFilmClub.php" class="dropdown-item">Film club</a>
+                            <a href="#" class="dropdown-item active">Materi Pembelajaran</a>
+                            <a href="Persyaratan.php" class="dropdown-item">Persyaratan</a>
+                            <a href="Jadwal.php" class="dropdown-item">Jadwal</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#signIn" class="nav-link" data-toggle="modal">Masuk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Daftar.php" class="nav-link">Daftar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Keterampilan -->
+    <div class="container pt-4">
+        <h1 class="display-4 m-5" style="text-align:center;">Materi Pembelajaran</h1>
+        <!-- Progress bar 1 -->
+        <h4 class="mt-5" style="margin-left:10%; margin-right:10%;">Teknik Pengambilan Gambar</h4>
+        <div class="progress" style="height:40px; margin-left:10%; margin-right:10%;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:40%">40%</div>
+        </div>
+        <!-- Progress bar 2 -->
+        <h4 style="margin-left:10%; margin-right:10%;">Editing</h4>
+        <div class="progress" style="margin-left:10%; margin-right:10%; height:40px;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:30%">30%</div>
+        </div>
+        <!-- Progress bar 3 -->
+        <h4 style="margin-left:10%; margin-right:10%;">Lightning</h4>
+        <div class="progress" style="height:40px; margin-left:10%; margin-right:10%;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bgprimary" style="width:15%">15%</div>
+        </div>
+        <!-- Progress bar 4 -->
+        <h4 style="margin-left:10%; margin-right:10%;">Audio</h4>
+        <div class="progress" style="height:40px; margin-left:10%; margin-right:10%; margin-bottom:100px;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:15%">15%</div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-dark mt-5 p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2 style="color:white">Film Club</h2>
+                    <p class="lead" style="color:#959595">
+                    <?=$data["Pengertian"]?>
+                    </p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h2 style="color:white">Social Media</h2>
+                    <a class="lead" href="https://www.youtube.com/channel/UCNhon8cUdCMK7LrAw_7RMVQ/featured" style="color:#959595;" target="_blank">Youtube</a><br>
+                    <a class="lead" href="https://www.instagram.com/skansa_film/" style="color:#959595" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="p-2" style="background-color:#151515">
+        <p class="lead" style="color:white; text-align:center; font-size:18px;">Copyright&copy;Film Club Skansa 2019</p>
+    </div>
+
+    <!-- Sign In -->
+    <div class="modal fade" id="signIn" tab-index="-1" role="dialog" aria-labelledby="signInTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signInTitle">Masuk</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" class="form-control" placeholder="username anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" class="form-control" placeholder="*********" required>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary" type="submit" name="masuk">Masuk</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

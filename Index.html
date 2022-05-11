@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Film Club Skansa</title>
+    <link rel="icon" href="image/Logo_SMKN1sungailiat.png">
+</head>
+<body>
+    
+    <!--Menu Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+        <div class="container">
+            <!--Brand Name-->
+            <a href="#" class="navbar-brand">
+                <img src="image/Logo_SMKN1sungailiat.png" width="30" height="30" class="d-inline-block align-top" alt="Logo">
+                Film Club Skansa
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Menu-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Home<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="DaftarFilm.html" class="nav-link">Film<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tentang
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="AboutFilmClub.html" class="dropdown-item">Film Club</a>
+                            <a href="Persyaratan.html" class="dropdown-item">Persyaratan</a>
+                            <a href="Jadwal.html" class="dropdown-item">Jadwal</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#signIn" class="nav-link" data-toggle="modal">Masuk <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Daftar.html" class="nav-link">Daftar <span class="sr-only"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Slider / Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="filter-darker">
+                    <img src="image/DSC_0365.JPG" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4" style="text-align:center">Film Club Skansa</h1>
+                    <p class="lead" style="text-align:center">Bergabunglah dan ciptakan film hebat</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="filter-darker">
+                    <img src="image/DSC_0087.JPG" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4" style="text-align:center">Pengalaman Luar Biasa</h1>
+                    <p class="lead" style="text-align:center">Belajar dari pengalaman untuk menjadi lebih baik</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="filter-darker">
+                    <img src="image/DSC_0528.JPG" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4" style="text-align:center">Kolaborasi Untuk Satu Tujuan</h1>
+                    <p class="lead" style="text-align:center">Bekerja sama dalam tim dan gapai mimpimu</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previus</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Apa itu film Club ? -->
+    <div class="container">
+        <h1 class="display-4 m-5" style="text-align:center">Apa Itu Film Club ?</h1>
+        <p class="lead" style="text-align:center; margin-left:10%;margin-right:10%;">Film Club adalah salah satu ekstrakulikuler yang ada di SMKN 1 Sungailiat. Ekskul ini mulai dibentuk sejak tahun 2018. Ini adalah tempat yang tepat untuk anda yang ingin menjadi filmmaker, videografer, fotografer, maupun desainer.<br>Pada ekskul ini kita akan belajar banyak hal, mulai dari bagaimana proses pra produksi, produksi dan pasca produksi. Kalian akan mendapatkan banyak sekali pengalaman membuat film disini. jadi, tunggu apalagi, ayo bergabung bersama kami di Film Club Skansa.</p>
+    </div>
+
+    <!--Visi & Misi -->
+    <div class="container">
+        <div class="row m-5">
+            <div class="col-md-6 col-sm-12 col-12">
+                <h4 style="text-align:center; text-decoration:underline">Visi</h4>
+                <p class="lead" style="text-align:justify; margin-left:5%; margin-right:5%;">Menjadikan siswa siswi SMKN 1 Sungailiat sebagai filmmaker/videografer/fotografer yang handal dan profesional.</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12">
+                <h4 style="text-align:center; text-decoration:underline">Misi</h4>
+                <ul class="lead" style="text-align:justify; margin-left:5%; margin-right:5%;">
+                    <li>
+                    Mengembangkan Potensi peserta didik berdasarkan bakat dan minat, sehingga dapat menjadi Insan yang Berprestasi.
+                    </li>
+                    <li>
+                    Menghasilkan siswa siswi yang berpengalaman dan profesional sebagai filmmaker/videografer.
+                    </li>
+                    <li>
+                    Menjadikan siswa siswi yang Aktif, Kreatif, dan Inovatif.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mengapa Bergabung Bersama Kami ? -->
+    <div class="container">
+        <h1 class="display-4 m-5" style="text-align:center">Kenapa Bergabung Bersama Kami ?</h1>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="card bg-light mt-2 pb-5" style="width: 18rem; border: none;">
+                    <div class="pl-5 pr-5 pt-5">
+                        <img class="card-img-top pl-5 pr-5" src="image/Koneksi.png" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center;">Bangun Koneksi</h5>
+                        <p class="card-text" style="text-align: center;">Kembangkan koneksimu dengan berkolaborasi bersama filmmaker lainnya.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="card bg-light mt-2 pb-5" style="width: 18rem; border: none;">
+                    <div class="pl-5 pr-5 pt-5">
+                        <img class="card-img-top pl-5 pr-5" src="image/belajar.png" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center;">Belajar Dari Nol</h5>
+                        <p class="card-text" style="text-align: center;">Belajar bagaimana cara membuat film yang baik dengan ditemani pembimbing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="card bg-light mt-2 pb-5" style="width: 18rem; border: none;">
+                    <div class="pl-5 pr-5 pt-5">
+                        <img class="card-img-top pl-5 pr-5" src="image/film.png" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center;">Dapatkan Pengalaman</h5>
+                        <p class="card-text" style="text-align: center;">Dapatkan pengalaman berharga dari produksi film impianmu sendiri.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimoni -->
+    <div class="bg-info pt-5 pb-5" style="margin-top:100px;">
+        <h1 id="testimoni" class="display-4">Testimoni</h1>
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="mt-4" id="fototestimoni" src="image/profile Alvin Indrawan.png" width="140" alt="foto profile">
+                <h3 class="mb-0" style="text-align:center; color:white;">Alvin Indrawan</h3>
+                <p class="lead mt-1" style="text-align:center; color:white; font-style:italic;">Anggota Film club</p>
+                <p class="lead mt-4" style="color:white; text-align:center; margin-left:10%; margin-right:10%;">"Film Club merupakan ekskul yang sangat saya suka, karena disitu saya dapat belajar banyak hal, mulai dari bagaimana mengoperasikan sebuah kamera, teknik pengambilan gambar, editing, hingga cara bagaimana membuat sebuah film yang baik."</p>
+              </div>
+              <div class="carousel-item">
+                <img class="mt-4" id="fototestimoni" src="image/tes/DSC_00753.JPG" width="140" alt="foto profile">
+                <h3 class="mb-0" style="text-align:center; color:white;">Resti</h3>
+                <p class="lead mt-1" style="text-align:center; color:white; font-style:italic;">Anggota Film club</p>
+                <p class="lead mt-4" style="color:white; text-align:center; margin-left:10%; margin-right:10%;">"Film Club merupakan ekskul yang sangat saya suka, karena disitu saya dapat belajar banyak hal, mulai dari bagaimana mengoperasikan sebuah kamera, teknik pengambilan gambar, editing, hingga cara bagaimana membuat sebuah film yang baik."</p>
+              </div>
+              <div class="carousel-item">
+                <img class="mt-4" id="fototestimoni" src="image/tes/DSC_0075.JPG" width="140" alt="foto profile">
+                <h3 class="mb-0" style="text-align:center; color:white;">Alvin Tok</h3>
+                <p class="lead mt-1" style="text-align:center; color:white; font-style:italic;">Anggota Film club</p>
+                <p class="lead mt-4" style="color:white; text-align:center; margin-left:10%; margin-right:10%;">"Film Club merupakan ekskul yang sangat saya suka, karena disitu saya dapat belajar banyak hal, mulai dari bagaimana mengoperasikan sebuah kamera, teknik pengambilan gambar, editing, hingga cara bagaimana membuat sebuah film yang baik."</p>
+              </div>
+              <div class="carousel-item">
+                <img class="mt-4" id="fototestimoni" src="image/tes/DSC_0091.JPG" width="140" alt="foto profile">
+                <h3 class="mb-0" style="text-align:center; color:white;">Andi</h3>
+                <p class="lead mt-1" style="text-align:center; color:white; font-style:italic;">Anggota Film club</p>
+                <p class="lead mt-4" style="color:white; text-align:center; margin-left:10%; margin-right:10%;">"Film Club merupakan ekskul yang sangat saya suka, karena disitu saya dapat belajar banyak hal, mulai dari bagaimana mengoperasikan sebuah kamera, teknik pengambilan gambar, editing, hingga cara bagaimana membuat sebuah film yang baik."</p>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>    
+
+    <!-- Daftar Film -->
+    <div class="container">
+
+        <h1 class="display-4 m-5" style="text-align:center;">Film Terbaru</h1>
+        <!-- Baris pertama -->
+        <div class="row">
+            <!-- Film Pertama-->
+            <div class="col-md-6 col-sm12 mt-3">
+                <div class="card mb-3" style="max-width:540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 col-sm-4">
+                            <img src="image/tes/film/chinngin.jpg" width="100%" alt="">
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">chinngin</h5>
+                                <p class="card-text">"Chinngin" menceritakan tentang seorang anak keturunan tionghoa  yang bernama Aling yang tertarik untuk belajar menari...</p>
+
+                                <button class="btn btn-info" type="button" data-toggle="modal" data-target="#chinngin">View</button>
+
+                                <!-- Popup -->
+                                <div class="modal fade" id="chinngin" tab-index="-1" role="dialog" aria-labelledby="chinngin" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="filmsuram">Chinngin</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="image/tes/film/chinngin.jpg" width="100%" alt="Suram">
+                                                <p class="lead">
+                                                    "Chinngin" menceritakan tentang seorang anak keturunan tionghoa  yang bernama Aling yang tertarik untuk belajar menari....Hal ini tidak disukai oleh mamanya Aling dikarenakan mamanya Aling tidak menyukai teman-teman menarinya Aling (perbedaan status sosial dan suku)...Bagaimana cara Aling dan teman-temannya bisa belajar menari bersama? Tonton sampai habis film pendek ini....Semoga dengan film pendek ini kita bisa belajar untuk menghargai perbedaan dan menjaga persatuan di negara kita sesuai dengan sila ke-3 PANCASILA yaitu PERSATUAN INDONESIA.
+                                                    <br><br>
+                                                    Film pendek hasil karya siswa siswi SMKN 1 Sungailiat yang telah mengikuti FLS2N 2019 tingkat provinsi Bangka Belitung dan berhasil menjadi juara 2<br>
+                                                    Semoga film ini bisa menjadi motivasi bagi semua siswa siswa SMK untuk bisa berkarya lebih lagi dan lebih kreatif lagi...<br>
+                                                    SMK Bisa SMK Hebat....
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
+                                                <a href="DetailFIlm.html" class="btn btn-info">View Detail</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Film Kedua-->
+            <div class="col-md-6 col-sm12 mt-3">
+                <div class="card mb-3" style="max-width:540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 col-sm-4">
+                            <img src="image/tes/film/sapu lidi.jpg" width="100%" alt="">
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Sapu Lidi</h5>
+                                <p class="card-text">Sebuah video/film karya siswa SMK Negeri 1 Sungailiat dengan Tema “SATU INDONESIA” yang dilombakan pada Lomba Video/Film Pendek bnptvifest...</p>
+
+                                <button class="btn btn-info" type="button" data-toggle="modal" data-target="#sapulidi">View</button>
+
+                                <!-- Popup -->
+                                <div class="modal fade" id="sapulidi" tab-index="-1" role="dialog" aria-labelledby="sapulidi" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="filmsuram">Sapu Lidi</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="image/tes/film/sapu lidi.jpg" width="100%" alt="Suram">
+                                                <p class="lead">
+                                                    Sebuah video/film karya siswa SMK Negeri 1 Sungailiat dengan Tema “SATU INDONESIA” yang dilombakan pada Lomba Video/Film Pendek bnptvifest.<br><br>
+                                                    Produser : SMK Negeri 1 Sungailiat<br>
+                                                    Penanggung Jawab : Harsiah, S.Pd, Pkn<br>
+                                                    Pembimbing : Dahlia Safarinah, S.Pd<br>
+                                                    Sutradara: Angelin Fitri Annisha<br>
+                                                    Co Sutradara : Yuni Setialoka<br>
+                                                    Penulis Naskah : Alivia Bintang Samudra<br>
+                                                    Kameramen : Andra Ahmad Dzaky, Hasri Ananda, Alivia Bintang Samudra<br>
+                                                    Wardrobe : Efnitarisa Ramadini<br>
+                                                    Editor : Alivia Bintang Samudra<br>
+                                                    Pemeran : Alwiyah Nur Aulis, Alivia Bintang. S, Hasri Ananda, Andra Ahmad. D, Efnitarisa Ramadini, Yuni Setialoka, M. Reza. R, Chrystian Chandra, Nursyah Fanni, Kemas. M, Dikki. A, Dian. W, Bemby. A, Ferdy Ilhami, Subhan Restu. P, Muthiara. S, Agnes Irma, Aulia Kartika, Salfina.<br>
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
+                                                <a href="" class="btn btn-info">View Detail</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Baris Kedua -->
+        <div class="row">
+            <!-- Film Pertama-->
+            <div class="col-md-6 col-sm12 mt-3">
+                <div class="card mb-3" style="max-width:540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 col-sm-4">
+                            <img src="image/tes/film/suram.jpg" width="100%" alt="">
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Suram</h5>
+                                <p class="card-text">Pada suatu hari ada sekelompok pemuda dan pemudi yang memutuskan untuk pergi ke bukit SURAM yang konon katanya bukit itu belum pernah didaki...</p>
+
+                                <button class="btn btn-info" type="button" data-toggle="modal" data-target="#suram">View</button>
+
+                                <!-- Popup -->
+                                <div class="modal fade" id="suram" tab-index="-1" role="dialog" aria-labelledby="suram" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="filmsuram">Suram</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="image/tes/film/suram.jpg" width="100%" alt="Suram">
+                                                <p class="lead">
+                                                    Film pendek hasil karya siswa siswi SMKN 1 sungailiat yang telah mengikuti lomba film pendek bnpt"SATU INDONESIA" 
+                                                    <br><br>
+                                                    Sinpopsis :<br>
+                                                        Pada suatu hari ada sekelompok pemuda dan pemudi yang memutuskan untuk pergi ke bukit SURAM yang konon katanya bukit itu belum pernah didaki.<br>
+                                                        Sebagai kenang-kenangan,mereka membuat video dokumentasi berupa vlog.Pada saat pembuatan video,salah satu dari sekelompok pemuda pemudi pun mengajak temannya untuk mencari tempat yang bagus untuk beristirahat sambil menunggu teman lainnya yang sedang mencari sumber mata air.Di saat perjalanan menuju tempat istirahat,para sekelompok pemuda pemudi dipertemukan dengan hal yang sangat mengejutkan mereka.Bagaimana kisah selanjutnya?apakah yang terjadi?yuk!tonton film ini dan jangan lupa like,comment,subcribe,dan share ke semua akun sosial mediamu! <br>
+                                                    <br><br>
+                                                    Produser : Zahra Khairyah Ali, S.Kom <br>
+                                                    Director : Ahmad Ghaly <br>
+                                                    Cameraman : Ahmad Ghaly <br>
+                                                    Assistant Cameraman : Nabila Oktariana <br>
+                                                    Bumper OP/END : Devid Wijaya <br>
+                                                    Wardrobe : Nova Aulia <br>
+                                                    Aerial Video : Dedy Irvandy, S.Pd<br>
+                                                    Editor : Alvin Saputra, ary Raviansyah, & Aghil Zibrand<br>
+                                                    Cast : <br>
+                                                    Thia <br>
+                                                    Nova Aulia <br>
+                                                    Alvin Saputra <br>
+                                                    Ary Raviansyah <br>
+                                                    Destriana Syachfitri <br>
+                                                    Fajar Agustian <br>
+                                                    Aghil Zibrand <br>
+                                                    Ibnu Nur Misbah<br>
+                                                    Steven Verentinus <br>
+                                                    Muhammad Iqbal
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
+                                                <a href="" class="btn btn-info">View Detail</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Film Kedua-->
+            <div class="col-md-6 col-sm12 mt-3">
+                <div class="card mb-3" style="max-width:540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 col-sm-4">
+                            <img src="image/tes/film/kite indonesia.png" width="100%" alt="">
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Kite Indonesia</h5>
+                                <p class="card-text">Sebuah video/film karya siswa SMK Negeri 1 Sungailiat dengan Tema “SATU INDONESIA” yang dilombakan pada Lomba Video/Film Pendek bnptvifest...</p>
+
+                                <button class="btn btn-info" type="button" data-toggle="modal" data-target="#kiteindonesia">View</button>
+
+                                <!-- Popup -->
+                                <div class="modal fade" id="kiteindonesia" tab-index="-1" role="dialog" aria-labelledby="kiteindonesia" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="filmsuram">Kite Indonesia</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="image/tes/film/kite indonesia.png" width="100%" alt="Suram">
+                                                <p class="lead">
+                                                    "KITE INDONESIA"
+                                                    <br><br>
+                                                    Sebuah film karya siswa SMKN 1 Sungailiat, dengan tema SATU INDONESIA yang dilombakan pada lomba film pendek bnptvifest
+                                                    <br><br>
+                                                    Produser : Darwis Leo, ST.B.Eng<br>
+                                                    Sutradara : Alvin Indrawan<br>
+                                                    Kameramen : Alvin<br>
+                                                    Penulis Naskah : Alvin Indrawan<br>
+                                                    Penyunting Gambar : Alvin Indrawan<br>
+                                                    <br>
+                                                    Pemeran : Hengki Kurniawan, Andi Andrian, Rani Mulyani, Roihan Ramadhan
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
+                                                <a href="" class="btn btn-info">View Detail</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-dark pt-5 pb-5" style="margin-top:120px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-12">
+                    <h2 style="color:white;">Film Club Skansa</h2>
+                    <p class="lead" style="color:#959595">
+                        Film Club adalah salah satu ekstrakulikuler yang ada di SMKN 1 Sungailiat untuk anda yang ingin menjadi filmmaker, videografer, fotografer, maupun desainer.
+                    </p>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <h2 style="color:white">Social Media</h2>
+                    <a class="lead" href="https://www.youtube.com/channel/UCNhon8cUdCMK7LrAw_7RMVQ/featured" style="color:#959595" target="_blank">Youtube</a><br>
+                    <a class="lead" href="https://www.instagram.com/skansa_film/" style="color:#959595" target="_blank">Instagram</a>
+                </div>
+            </div>
+            <!--<hr class="mt-5" style="border-color:#959595;">
+            <p class="lead" style="color:white; text-align:center; font-size:18px;">Copyright&copy;Film Club Skansa 2019</p>-->
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="p-2" style="background-color:#151515">
+        <p class="lead" style="color:white; text-align:center; font-size:18px;">Copyright&copy;Film Club Skansa 2019</p>
+    </div>
+
+
+    <!-- PopUp SignIn -->
+    <div class="modal fade" id="signIn" tab-index="-1" role="dialog" aria-labelledby="signInTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signInTitle">Masuk</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" name="username" id="username" placeholder="Username anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" name="password" id="password" placeholder="*********" required>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" name="masuk" class="btn btn-info">Masuk</button>
+                        </div>
+                    </form>
+                </div>
+                <!--<div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal" type="button">Cancel</button>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+/*Index.php*/
+.carousel-item .display-4{
+    margin-top:-40%;
+    font-weight:bold;
+}
+.carousel-item .lead{
+    font-size:25px;
+}
+#testimoni{
+    color:white;
+    text-align:center;
+}
+#fototestimoni{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+.filter-darker{
+    filter:brightness(60%);
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Film Club Skansa</title>
+    <link rel="icon" href="image/Logo_SMKN1sungailiat.png">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+        <div class="container">
+            <!--Brand Name-->
+            <a href="#" class="navbar-brand">
+                <img src="image/Logo_SMKN1sungailiat.png" width="30" height="30" class="d-inline-block align-top" alt="Logo">
+                Film Club Skansa
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- List Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="Index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="DaftarFilm.html" class="nav-link">Film</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-toggle="dropdown" aria-hashpopup="true" aria-expanded="false">
+                        Tentang
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="AboutFilmClub.html" class="dropdown-item">Film Club</a>
+                            <a href="Persyaratan.html" class="dropdown-item">Persyaratan</a>
+                            <a href="#" class="dropdown-item active">Jadwal</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#signIn" class="nav-link" data-toggle="modal">Masuk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Daftar.html" class="nav-link">Daftar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jadwal -->
+    <div class="container pt-4">
+        <h1 class="display-4 mt-5" style="text-align:center;">Jadwal Ekskul</h1>
+        <!-- Jadwal & Lokasi -->
+        <table class="mt-5 mb-5">
+            <tr class="lead">
+                <td style="width:80px;">Hari</td>
+                <td>: Setiap hari Jumat.</td>
+            </tr>
+            <tr class="lead">
+                <td>Jam</td>
+                <td>: 13:00 - Selesai.</td>
+            </tr>
+            <tr class="lead">
+                <td>Lokasi</td>
+                <td>: Lab Multimedia SMKN 1 Sungailiat (lantai 1).</td>
+            </tr>
+        </table>
+        <img src="image/denah SMKN 1.jpg" width="70%" alt="denah" class="mb-5">
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-dark mt-5 p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2 style="color:white">Film Club</h2>
+                    <p class="lead" style="color:#959595">
+                        Film Club adalah salah satu ekstrakulikuler yang ada di SMKN 1 Sungailiat untuk anda yang ingin menjadi filmmaker, videografer, fotografer, maupun desainer.
+                    </p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h2 style="color:white">Social Media</h2>
+                    <a class="lead" href="https://www.youtube.com/channel/UCNhon8cUdCMK7LrAw_7RMVQ/featured" style="color:#959595;" target="_blank">Youtube</a><br>
+                    <a class="lead" href="https://www.instagram.com/skansa_film/" style="color:#959595" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="p-2" style="background-color:#151515">
+        <p class="lead" style="color:white; text-align:center; font-size:18px;">Copyright&copy;Film Club Skansa 2019</p>
+    </div>
+
+    <!-- Sign In -->
+    <div class="modal fade" id="signIn" tab-index="-1" role="dialog" aria-labelledby="signInTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signInTitle">Masuk</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" name="username" id="username" class="form-control" placeholder="username anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" class="form-control" placeholder="*********" required>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" name="masuk" class="btn btn-info">Masuk</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
